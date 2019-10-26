@@ -27,7 +27,7 @@ const initialState = {
                     })
                 }
             }
-      case "BUY_FEATURE":
+      case "BUY_ITEM":
         if (state.car.features.find(item => item.id === action.payload.id)) {
           return state;
         } else {
